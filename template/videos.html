@@ -1,0 +1,27 @@
+% rebase('template/base1.html')
+	<h3><b>Videos Upload</b></h3>
+	    <ul>
+	     % for entry in entries:
+	     <table border="0">
+            <div>
+                <h3><a href="/upload/{{entry [0]}}"/>{{ entry[0] }}</a>. | {{ entry[1] }} | {{ entry[2] }}</a></h3>
+            </div>
+			<video controls>
+				<source src="videos/trailer.ogv" type="video/ogg">
+				<source src="/static/videos/{{entry [2]}}" type="video/mp4">
+				<object type="application/x-shockwave-flash"
+					data="player.swf?video={{entry [2]}}">
+					<param name="movie" value="player.swf?video={{entry [2]}}">
+					<p>Tidak ada dukungan flash</p>
+				</object>
+			</video>
+			<div>
+				<a href="/videos/hamos/{{entry [0]}}/"><font color=#ff000><button>Hamos</button></font></a> | 
+				<a href="/videos/troka/{{entry [0]}}/"><button>Troka</button></a>
+			</div>
+				<div>
+					<option><a href="#">link</a></option>
+				</div>
+				</table>
+		% end
+	</ul>

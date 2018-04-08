@@ -1,0 +1,19 @@
+% rebase('template/base1.html')
+<h3><b>Lista Registu User </b></h3>
+		<ul>
+		  % for entry in entries:
+			<li>
+				<div>
+					Hii <a href="/user1/{{entry [0]}}/">{{ entry[1] }}</a>, nice to meet you 
+				</div>
+				<div>
+					{{entry[3]}} {{entry[4]}}
+				</div>
+				<div>
+					<a href="/user/hamos/{{entry [0]}}/"><font color=#ff000><button>Hamos</button></font></a>
+					<a href="/user/troka/{{entry [0]}}/"><button>Troka</button></a>
+				</div>
+			</li>
+			%end
+		</ul>
+	

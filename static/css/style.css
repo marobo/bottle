@@ -1,0 +1,73 @@
+
+body{
+	background-color:LightGrey;	/*-moz-linear-gradient(top, #FF0000, #FDF5E6, #00FF00) fixed no-repeat;*/
+	/*background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#00FF00), color-stop(0%,#FDF5E6), color-stop(100%,#00FF00)) fixed no-repeat; */
+}
+
+.navigation 
+{
+	list-style: none;
+	padding: 0 25px;	
+	margin: 0 auto;
+	width: 945px;
+	background: url(/static/images/menu.gif) 0 0 repeat-x;*/
+	font: normal 16px/18px sans-serif;
+}
+ul.navigation 
+{
+	float: left;
+}
+ul.navigation li 
+{
+ 	margin: 0 auto;
+	float: left;
+	padding-right: 15px;
+	position: relative;
+}
+ul.navigation li a
+{
+ 	float: left;
+	padding: 10px 5px;
+	color: #FFFFFF;
+	display: block;
+	text-decoration: none;	
+}
+ul.navigation li a:hover
+{
+	background: #000;
+}
+
+ul.navigation li ul.submenu 
+{
+	list-style: none;
+	margin: 0; 
+	padding: 0;
+	position: absolute;
+	left: 0; 
+	top: 35px;
+	background: #222222;
+	display: none;
+	float: left;
+	width: 170px;
+	border: 1px solid #efefef;
+}
+ul.navigation li ul.submenu li
+{
+	margin: 0 auto; 
+	padding: 0;
+	border-bottom: 1px solid #373737;
+	width: 170px;
+}
+ul.navigation li ul.submenu li a 
+{
+	width: 145px;
+	background: #228B22;
+	padding-left: 20px;
+	float: left;
+	color:#FFFFFF;
+}
+ul.navigation li ul.submenu li a:hover 
+{ 
+	background: #A52A2A url(images/tick.png) left center no-repeat;
+	padding-left: 30px;  
+}

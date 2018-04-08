@@ -1,0 +1,24 @@
+% rebase('template/base.html')
+	<h3><b>Upload Music </b></h3>
+<ul>
+	% for entry in entries:
+	
+		 <div>
+				<h5>{{ entry[0] }}. <b>|</b> {{ entry[1] }} <b>|</b> {{ entry[2] }} <b>|</b>
+
+			<audio controls>
+				<source src="/static/audios/{{ entry[2] }}" type="audio/mpeg">
+			<object type="application/x-shockwave-flash"
+				data="player.swf?audio=angel.mp3">
+				<paran name="audio" value="player.swf?audio={{entry[2]}}">
+				<p>Tidak terdapat dukungan browser untuk flash.</p>
+			</object>
+			</audio>
+			<br><a href="/static/audios/{{ entry[2] }}">[<i> Click Here to Download</i> ]</h5></a></br>
+		</div>
+	
+	% end
+</ul>
+
+	
+	

@@ -1,0 +1,17 @@
+% rebase('template/base.html')
+		<h3><b>Noticia1</b></h3>
+				<ul>
+				% for entry in entries:
+					<li>
+						<div>
+							<a href="/noticia1/{{ entry[0] }}/">{{ entry[0] }}</a>.{{ entry[3] }}</a>
+						</div>
+						<div>
+							<i><a href="mailto:{{entry[2]}}">{{entry[1]}} ({{entry[2]}})</a></i>
+						</div>
+					</li>
+					<hr width="100%" align="center">
+					%end
+				</ul>
+				
+				

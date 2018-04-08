@@ -1,0 +1,18 @@
+% rebase('template/base.html')
+<h4><b>Lista Registu User </b></h4>
+		<ul>
+		  % for entry in entries:
+			<li>
+				<div>
+				<div>{{entry[0]}}.</div> Name: <a href="/user/{{entry [0]}}/">{{entry[3]}} {{entry[4]}}</a>
+				</div>
+				<div>
+				Distric:{{entry[7]}} 
+				</div>
+				<div>
+					Email:<a href="mailto:{{entry[8]}}"><i>({{entry[8]}})</i></a>
+				</div>
+			</li>
+			%end
+		</ul>
+	

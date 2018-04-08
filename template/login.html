@@ -1,0 +1,58 @@
+
+<html lang="en-us" >
+<head>
+	<title>Log in | Site admin</title>
+		<link rel="stylesheet" type="text/css" href="/static/css/base.css" />
+		<link rel="stylesheet" type="text/css" href="/static/css/login.css" />
+		<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="/static/admin/css/ie.css" /><![endif]-->
+
+		<script type="text/javascript">window.__admin_media_prefix__ = "/static/css/";</script>
+		<script type="text/javascript">window.__admin_utc_offset__ = "0";</script>
+
+		<meta name="robots" content="NONE,NOARCHIVE" />
+</head>
+<body class="login">
+	<!-- Container -->
+	<div id="container">
+    <!-- Header -->
+		<div id="header">
+			<div id="branding">    
+				<h1 id="site-name"><a href="/">Admin by Ony</a></h1>
+			</div>
+		</div>
+		<!-- END Header -->
+		<!-- Content -->
+<font color=#ff0000><BLINK>{{sala}}</BLINK></font>
+    <div id="content" class="colM">
+		<div id="content-main">
+			<form action="." method="POST" id="login-form">
+			<input type="hidden" name="destination" value="{{destination}}"/>
+				<div class="form-row">
+					<label for="id_username" class="required">Username:</label> 
+					<input id="id_username" maxlength="254" name="username" type="text" value ="{{username}}"/>
+				</div>
+				<div class="form-row">
+					<label for="id_password" class="required">Password:</label>
+					<input id="id_password" name="password" type="password" value = "{{password}}"/>
+				</div>
+				<div class="submit-row">
+					<label>&nbsp;</label><input type="submit" value="Login"/>
+					<label>&nbsp;</label><a href="/">Back</a>
+				</div>
+				<tr>
+					<td><input type="checkbox">Remember me</td>
+				</tr>
+			</form>
+			<script type="text/javascript">
+			document.getElementById('id_username').focus()
+			</script>
+		</div>  
+		<br class="clear" />
+    </div>
+    <!-- END Content -->
+</div>
+<!-- END Container -->
+
+</body>
+</html>
+

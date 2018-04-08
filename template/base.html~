@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!-- saved from url=(0028)http://128.199.170.181:8003/ -->
+<html>
+	<head>
+		<link rel='icon' href='/static/images/timor leste.gif'/>
+		<meta charset="utf-8">
+		<title>RAI LAKAN TIMOR LESTE</title>
+		<link href="/static/css/bootstrap.min.css" rel="stylesheet"/>
+		<script type="text/javascript" src="/static/js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+		<link href="/static/css/style.css" rel="stylesheet" type="text/css" />
+		<link href="/static/css/efect_text.css" rel="stylesheet"/>
+		<script type="text/javascript" src="/static/js/jquery.js"></script> 
+		<script type="text/javascript" src="/static/js/drop-down-menu.js"></script>
+		
+		<script src="http://yourjavascript.com/15143401218/faisal-share-cctv.js" type="text/javascript"> </script><script type="text/javascript"> 
+		cot("http://1.bp.blogspot.com/-jyICA3F7eOo/TbBE4YBgbpI/AAAAAAAAAEM/XU9sJQnzGvU/s1600/cctv.gif")</script>
+		
+		<!-- Start WOWSlider.com HEAD section -->
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="WOW Slider, jQuery Image Carousel, Image Carousel jQuery" />
+		<meta name="description" content="WOWSlider created with WOW Slider, a free wizard program that helps you easily generate beautiful web slideshow" />
+		<link rel="stylesheet" type="text/css" href="/static/engine1/style.css" />
+		<script type="text/javascript" src="/static/engine1/jquery.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="static/engine/style.css" />
+		<script type="text/javascript" src="static/engine/jquery.js"></script>
+		<script type="text/javascript" src="static/engine/wowslider.js"></script>
+		<script type="text/javascript" src="static/engine/script.js"></script>
+		<!-- End WOWSlider.com HEAD section -->
+		
+	</head>
+	<body>
+		<td  align="center" width="100" height="50">
+				<div class="text7 h2">
+					<div class='container'>
+						<a href="/static/images/UNTL.bmp"><p><img src="/static/images/UNTL.BMP" width="100px" height="80px" align="left"></a></p>
+						<a href="/login/"><p><img src="/static/images/AEDEEE.png" width="100px" height="80px" align="right"></a></p>
+						<p class="text-center"><b>UNIVERSIDADE NACIONAL TIMOR LOROSA'E  U.N.T.L. </b></p>
+						<p class="text-center"><b>FACULDADE DE ENGENHARIA CIENSIA NO TECNOLOGIA</b></p>
+						<p class="text-center"><b>DEPARTAMENTO DE ENGENHARIA ELECTRONICA NO ELECTRICA</b></p>
+					</div>
+				</div>
+			<div class='container'>
+			<div class="row">
+				<div class="col-md-10 center">
+				
+				<!--<ul class="nav nav-pills title">
+					<li class="active"><a href="/">Uma</a></li>
+					<li><a href="/konaba/">Perfile</a></li>
+					<li><a href="/noticia1/">Noticia</a></li>
+					<li><a href="/blog1/">Blog Elektro</a></li>
+					<li><a href="#">pesquiza Rai Lakan</a></li>
+					<li><a href="/upload1/">Images</a></li>
+					<li><a href="/videos1/">Videos</a></li>
+					<li><a href="/pie1/">Pygal1</a></li>
+				</ul>-->
+								
+						<ul class="navigation">
+							<li><a href="/"><font color='#FF0000'>Uma</a></li></font>
+							<li><a href="/konaba/"><font color='#FF0000'>Profile</a></li></font>
+							<li><span><a href="#"><font color='#FF0000'>Blog Elektro</span></a></font>
+								<ul class="submenu">
+									<li><a href="/noticia1/">Noticia</a></li>
+									<li><a href="/blog1/">Blog Elektro</a></li>
+									<li><a href="/pie1/">Pygal1</a></li>
+								</ul>
+							<li><span><a href="/noticia1/"><font color='#FF0000'>Noticia</span></a></font>
+								<ul class="submenu">
+									<li><a href="/noticia1/">Noticia</a></li>
+									<li><a href="/noticia/foun/">Noticia Foun</a></li>
+									<li><a href="/pie1/">Pygal1</a></li>
+								</ul>
+							</li>
+							<li><span><a href="#"><font color='#FF0000'>Materiais Pesquiza</a></span></font>
+								<ul class="submenu">
+									<li><a href="#">Material Pesquiza</a></li>
+									<li><a href="#"></a></li>
+								</ul>
+							</li>
+							<li><span><a href="#"><font color='#FF0000'>Rai Lakan</a></span></font>
+								<ul class="submenu">
+									<li><a href="#"> Dados Rai Lakan</a></li>
+									<li><a href="#">Laboratorium</a></li>
+								</ul>
+							</li>
+							<li><span><a href="#"><font color='#FF0000'>Aktividades</a></span></font>
+								<ul class="submenu">
+									<li><a href="/upload1/">Images</a></li>
+									<li><a href="/videos1/">Videos</a></li>
+								</ul>
+							</li>
+							<li><span><a href="/file/upload/foun/"><font color='#FF0000'>Doc File</span></a></font>
+								<ul class="submenu">
+									<li><a href="#">Doc Reference of Lightning System</a></li>
+								</ul>
+							</li>
+							<li><span><a href="#"><font color='#FF0000'>Seluk Tan</a></span></font>
+								<ul class="submenu">
+									<li><a href="/noticia1/">Noticia</a></li>
+									<li><a href="/blog1/">Blog Elektro</a></li>
+									<li><a href="#">pesquiza Rai Lakan</a></li>
+									<li><a href="/pie1/">Pygal1</a></li>
+								</ul>
+							</li>
+						</ul>
+						<img src='/static/images/menu_bg.gif'width="945px" height="80px"/>
+						<!--<h2><b><marquee bgcolor="LightGrey">BEM VINDU MAI SITE ELEKTRONIKA NO ELEKTRIKA HERA</marquee></h2></b>-->
+					{{!base}}
+				</div>
+						<div class="col-md-2">
+								<p class="text-left">
+									<b><class="active"><a href="/admin/">Sign In</a></b>
+									<hr width="100%" align="center">
+						<div class="text6 h2">
+							<b>HORAS AGORA HATUDU:</b>
+						<br><span id=”jam”></span>
+							<script type="text/javascript">   
+								//fungsi displayTime yang dipanggil di bodyOnLoad dieksekusi tiap 1000ms = 1detik
+								function displayTime()
+							{
+									//buat object date berdasarkan waktu saat ini
+									var time = new Date();
+									//ambil nilai jam,
+									//tambahan script + "" supaya variable sh bertipe string sehingga bisa dihitung panjangnya : sh.length
+									var sh = time.getHours() + "";
+									//ambil nilai menit
+									var sm = time.getMinutes() + "";
+									//ambil nilai detik
+									var ss = time.getSeconds() + "";
+									//tampilkan jam:menit:detik dengan menambahkan angka 0 jika angkanya cuma satu digit (0-9)
+									document.getElementById("clock").innerHTML = (sh.length==1?"0"+sh:sh) + ":" + (sm.length==1?"0"+sm:sm) + ":" + (ss.length==1?"0"+ss:ss);
+								}
+							</script>
+							<font color="red" size="6" face='elephant'>
+								<body onload="displayTime();setInterval('displayTime()', 1000);"></body>
+								<span id="clock"></span>
+								<font color="blue" size="5" face='calibri'></font>
+							</font>
+						</br>
+						</div>
+								<hr width="100%" align="center">			
+								<!-- Start WOWSlider.com BODY section -->
+								<div id="wowslider-container1">
+									<div class="ws_images"><ul>
+									<li><img src="/static/data1/images/foto_1.jpg" alt="" title="" id="wows1_0"/>Actividade peskiza sentral electrika Hera.</li>
+									<li><img src="/static/data1/images/foto_8.jpg" alt="" title="" id="wows1_1"/>Actividade seminariu ho exposisaun iha dep. E.E.E. 2014.</li>
+									<li><img src="/static/data1/images/foto_2.jpg" alt="" title="" id="wows1_2"/>Circuito instalasaun electrika</li>
+									<li><img src="/static/data1/images/foto_3.jpg" alt="" title="" id="wows1_3"/>Lampu Disko Halo Husi Estudant Dep. E.E.E.</li>
+									<li><img src="/static/data1/images/foto_6.jpg" alt="" title="" id="wows1_4"/>Robot Simples Kontrola Uza Komputador</li>
+									<li><img src="/static/data1/images/foto_7.jpg" alt="" title="" id="wows1_5"/>Praktika Sistema Relay</li>
+									<li><img src="/static/data1/images/foto_10.jpg" alt="" title="" id="wows1_6"/>Robot simples ne'e Halo Husi Estudante sira Dep. E.E.E.</li>
+									<li><img src="/static/data1/images/dsc09691.jpg" alt="" title="" id="wows1_7"/>Apresentasaun robot iha aktividade exposisaun ho seminariu tinan 2014 , iha laboratorium Dep. E.E.E.</li>
+									</ul></div>
+								<!-- End WOWSlider.com BODY section -->					
+								</div>
+								
+								<hr width="100%" align="center">
+								<a href="/static/images/rai_lakan.gif"><p>
+								<img src="/static/images/rai_lakan.gif" width="170px" height="160px" align="left"></p>	
+								<h5>INSTALASAUN ANTENA<h5/>
+								<h5>RAI LAKAN</h5></a>
+								
+								<hr width="100%" align="center">
+								<img src="/static/images/ANTENNA.GIF "width="170px" height="160px"/>
+								<a href= "/static/images/ANTENNA.GIF">TIPE ANTENA DETEKTA</a>
+								
+								<hr width="100%" align="center">
+								<img src="/static/images/OSCILOSCOP.GIF "width="170px" height="160px"/>
+								<a href= "/static/images/OSCILOSCOP.GIF">OSCILOSCOPE DIGITAL</a>
+								
+							<!--<hr width="100%" align="center">
+							<address>
+								<strong>CONTACT US:</strong>
+								<a href='https://www.facebook.com/ony.dejesus.54'>
+								<strong>FACEBOOK:</strong><br>Ony De Jesus</br></a>
+								<strong>Full Name:</strong><br>Honorio De Jesus Afonso</br>
+								<abbr title="Phone"><strong>Hp:</strong><br></abbr> (+670) 78150465
+							</address>
+							<address>
+								<p class="tooltip-options" > 
+								<strong>Email:</strong><br>
+								<a href="mailto:honoriodejesus03@gmai.com"><i>dejesushonorio03@gmail.com</i></a></p> 
+							</address> -->
+							
+							<hr width="100%" align="center">
+						</div> <!--div close col-md-2-->
+					</nav> <!--nav close navbar navbar-inverse" role="navigation-->
+			</div> <!--div close row-->	
+				<div class="row">
+					<hr width="90%" align="center">
+					<div class="center-block" style="width:200px;"> 
+						<div class="text-right">
+							<br>www.pykafe.org</br>
+							<br>Copyrihgt 2015 &copy; python-2.7.2</br>
+						</div>
+					</div> 
+				</div> 
+			</div>	<!--div close container-->
+		</td>
+	</body>
+</html>
+
+

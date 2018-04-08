@@ -1,0 +1,27 @@
+% rebase('template/base1.html')
+	<h3><b>Images Upload </b></h3>
+	    <ul>
+	     % for entry in entries:
+	     <table border="0">
+            <div>
+                <h3><a href="/upload/{{entry [0]}}"/>{{ entry[0] }}</a>.| {{ entry[1] }} | {{ entry[2] }}</a></h3>
+            </div>
+			<div>
+			<div class='img-thumbnail'>
+				<div class='img-thumbnail'>
+				<a href ='/static/upload/{{entry[2]}}' width="480" height="380" border="1">
+					<img alt="" src='/static/upload/{{entry[2]}}' width="480" height="380" border="1"/>
+				</a>
+				</div>
+			</div>
+			</div>
+			<div>
+					<a href="/upload/hamos/{{entry [0]}}/"><font color=#ff000><button>Hamos</button></font></a> | 
+					<a href="/upload/troka/{{entry [0]}}/"><button>Troka</button></a>
+				</div>
+				<div>
+					<option><a href="#">link</a></option>
+				</div>
+		</table>
+		% end
+	</ul>

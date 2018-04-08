@@ -1,0 +1,148 @@
+/*from HONORIO DE JESUS AFONSO
+=============================*/
+
+/*Efek Teks Bayangan
+====================*/
+.text1, .footer {
+  font-weight:700px;
+  font-size:35px;
+  background:#4aacf7;
+  color:#064475;
+  text-shadow:
+    1px 2px 1px #9ad2fe,
+    -1px -2px 1px #1895f7;
+}
+
+/*Efek Teks EmbosS
+====================*/
+.text2, .footer {
+ font-weight:710px;
+ font-size:35px;
+ background:#3e6a06;
+ color:#3e6a06;
+ text-shadow:
+   -1px -1px 1px #528e06,
+   -1px -1px 3px #528e06,
+   1px 1px 1px #243d05,
+   1px 1px 3px #243d05,
+   1px -1px 1px #eafed2,
+   -1px 1px 1px #eafed2;
+}
+
+/*Efek Teks Garis Sisi
+=====================*/
+.text3, .footer{
+ font-weight:700px;
+ font-size:35px;
+ background:#fafafa;
+ color:#91080b;
+ text-shadow:
+   1px 0px 0px #fff,
+   -1px 0px 0px #fff,
+   0px 1px 0px #fff,
+   0px -1px 0px #fff,
+   1px 1px 2px #000;
+}
+
+/*Efek Teks Tiga Dimensi
+=======================*/
+.text4, .footer {
+ font-weight:680px;
+ font-size:35px;
+ background:#f9f9d7;
+ color:#9a9d0b;
+ text-shadow:
+   1px 1px #404206,
+   2px 2px #727415,
+   3px 3px #727415,
+   4px 4px #727415,
+   5px 5px #727415,
+   6px 6px #727415,
+   7px 7px #404206,
+   8px 8px 7px #000;
+}
+
+/*Efek Teks Tiga Dimensi
+====================*/
+.text5, .footer{
+ font-weight:680px;
+ font-size:35px;
+ background:#eee;
+ color:#45BEF7;
+ text-shadow:
+   0px 1px #577079,
+   0px 2px #577079,
+   0px 3px #577079,
+   0px 4px #577079,
+   0px 5px #577079,
+   0px 6px #577079,
+   0px 7px #577079,
+   0px 7px 10px #333;
+}
+
+/*Efek Teks Menyala
+===================*/
+.text6, .footer {
+ font-weight:400px;
+ font-size:18px;
+ background:black;
+ color:#fff;
+ text-shadow:
+   0 0 3px #FFFFA0,
+   0 0 5px #FFFF4D,
+   0 0 9px #FFFF41,
+   0 0 20px #FFFF2A,
+   0 0 25px #FFFF2B,
+   0 0 30px #FEFE00,
+   0 0 40px #F7F700;
+}
+/*Efek Teks Menyala
+===================*/
+.text7, .footer{
+  font-weight:400px;
+  font-size:18px;
+  background:#191970;
+  color:black;
+  text-shadow:
+    0px 0px 4px #ccc,
+    -1px -5px 4px #ff3,
+    2px -10px 6px #fd3,
+    -3px -15px 11px #f80,
+    3px -18px 18px #f20;
+}
+
+/*Efek Teks Warna-Warni
+=======================*/
+.text8, .footer {
+ font-weight:900px;
+ font-size:47px;
+ background:#f5e6fe;
+ color:#fff;
+ text-shadow:
+   -1px -1px 0px #ddd,
+   2px 1px 0px #f93e47,
+   4px 2px 0px #f59b0f,
+   6px 3px 0px #f5dc0f,
+   8px 4px 0px #19a305,
+   10px 5px 0px #057fa3,
+   12px 6px 0px #052aa3,
+   14px 7px 0px #7605a3,
+   14px 8px 2px #000,
+   14px 5px 10px #000,
+   14px 5px 25px #000;
+}
+
+/*stylesheet*/
+.title, .footer{
+    padding-top:20px;
+    background-color:LightGrey;
+    font-size:20px;
+    text-align:center;
+    font:Calibri;
+}
+
+.center, .footer{
+	padding-top:20px;
+	background-color:White;
+	font:Calibri;
+}

@@ -1,0 +1,14 @@
+% rebase('template/base1.html')
+	<h3><b>Upload Music </b></h3>
+	    <ul>
+	     % for entry in entries:
+	     <table border="0">
+            <div>
+				<h5>{{ entry[0] }}. <b>|</b> {{ entry[1] }} <b>|</b> {{ entry[2] }} <b>|</b>  
+				<a href="/static/audios/{{ entry[2] }}">[<i> Free Music Download</i> ]</h5></a>
+				<a href="/music/hamos/{{entry [0]}}/"><font color=#ff000><button>Hamos</button></font></a> | 
+				<a href="/music/troka/{{entry [0]}}/"><button>Troka</button></a>
+			</div>
+		</table>
+		% end
+	</ul>

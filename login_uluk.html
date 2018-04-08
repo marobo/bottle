@@ -1,0 +1,29 @@
+% rebase('template/base.html')
+<head>
+	<title>Log in | python site admin</title>
+</head>
+<h2>Login</h2>
+<font color=#ff0000><BLINK>{{sala}}</BLINK></font>
+	<form action="." method="POST">
+		<table border="0">
+			<tr>
+				<input  type="hidden" name="destination" value = "{{destination}}"/>
+			</tr>
+				<td>Username:</td>
+				<td><input name="username" type="text" value ="{{username}}" placeholder="Enter your username"/></td>
+			</tr>
+			<tr>	
+				<td>Password:</td>
+				<td><input name="password" type="password" value = "{{password}}" placeholder="Enter your password"/></td>	
+			</tr>
+			<tr>
+				<td><input type='submit' value='login'></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox">Remember me</td>
+			</tr>
+		</table>
+			<i><a id="forgotPswd" href="https://www.hover.com/signin/forgot_password" tabindex:="" "5"="">Haluha Password</a></i>
+	</form>
+	<p>Ita Uza <img src='/static/images/logo_nav.png'img></p>
+	

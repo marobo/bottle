@@ -1,0 +1,17 @@
+% rebase('template/base.html')
+	<h4><b>Blog Electronika e Elektrika Hera</b></h4>
+		<ul>
+		  % for entry in entries:
+			<li><div>
+					<a href="/blog1/{{entry [0]}}/">{{ entry[0] }}</a>.{{ entry [1]}}
+				</div>
+				<div>
+					{{ entry[2] }}</a>
+				</div>
+				<div>
+					<i><a href="mailto:{{entry[2]}}">{{entry[1]}} ({{entry[1]}})</a></i>
+				</div>
+			</li>
+			<hr width="100%" align="center">
+			%end
+		</ul>

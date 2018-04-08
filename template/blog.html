@@ -1,0 +1,22 @@
+% rebase('template/base1.html')
+	<h3><b> Blog Electronika e Elektrika Hera</b></h3>
+		<ul>
+		  % for entry in entries:
+			<li>
+				<div>
+					<a href="/blog/{{entry [0]}}/">{{ entry[0] }}</a>.{{ entry[2] }}</a>
+				</div>
+				<div>
+					<i><a href="mailto:{{entry[2]}}">{{entry[1]}} ({{entry[1]}})</a></i>
+				</div>
+				<div>
+					<a href="/blog/hamos/{{entry [0]}}/"><font color=#ff000><button>Hamos</button></font></a>
+					<a href="/blog/troka/{{entry [0]}}/"><button>Troka</button></a>
+				</div>
+				<div>
+					<option><a href="#">link</a></option>
+				</div>
+			</li>
+			<hr width="100%" align="center">
+			%end
+		</ul>
